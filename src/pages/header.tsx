@@ -2,7 +2,7 @@ function Header() {
     return (
         <>
         {/* <div className='w-full h-5 bg-black'></div> */}
-        <header className="relative h-[300px] w-full bg-cover bg-center text-white" style={{ backgroundImage: `url('/swing_feet.png')` }}>
+        <header className="relative h-[300px] w-full bg-cover bg-center text-white" style={{ backgroundImage: `url(process.env.PUBLIC_URL + '/swing_feet.png')` }}>
             {/* Capa oscura encima de la imagen */}
             <div className="absolute inset-0 bg-black/50" />
             <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
